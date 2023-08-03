@@ -1,0 +1,103 @@
+body{
+    background: #1b1e26 6vw;
+    height: 100vw;
+    color: rgb(133, 133, 133);
+    
+}
+
+
+
+.titulos{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.Seccion{
+    display: grid;
+    place-items: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+form{
+    padding: 10px;
+    font-size: 15px;
+    background-position: center;
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+.caja{ 
+    width: 300px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px auto;
+    background-color: #403f3f;
+    
+    
+
+}
+
+.caja h1 {
+    text-align: center;
+}
+
+.caja input{
+    margin-bottom: 10px;
+}
+
+.caja button{
+    margin-bottom: 10px;
+    background-color: #403f3f;
+    color: #ffffff;
+    cursor: pointer;
+}
+[name="datos1"]{
+    background: #403f3f;
+    color: white;
+}
+[type="file"]{
+    padding: 5px 5px;
+    margin: 5px 5px;
+    display: grid;
+    place-items: center;
+}
+.botones{
+    padding: 5px;
+    margin: 5px 0px;
+    background: #403f3f;
+    color: white;
+}
+
+[type="checkbox"]{
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: 15px;
+}
+
+#lenguajes{
+    height: 100px;
+    width: 200px;
+    background-color: #403f3f;
+}
+
+.areas{
+    padding: 5px;
+    margin: 5px 5px;
+    font-size: 15px;
+}
+
+#pie{
+    display: grid;
+    justify-items: center;
+}
+
+.logo{
+    display: grid;
+    place-items: center;
+    
+}
